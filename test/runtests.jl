@@ -81,7 +81,7 @@ end
 
 end
 
-@testset "Contractors for polynamial functions" begin
+@testset "Contractors for polynomial functions" begin
     pvars = @polyvar x y
     p(x,y) = x + y
     C = Contractor(pvars, p)
